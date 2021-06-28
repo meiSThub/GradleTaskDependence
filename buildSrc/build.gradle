@@ -1,0 +1,15 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.5.20-RC"
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+    implementation "com.android.tools.build:gradle:4.2.1"
+}
